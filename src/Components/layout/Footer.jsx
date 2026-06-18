@@ -8,6 +8,7 @@ import {
 const EXPLORE = [
   { label: 'Home',       to: '/' },
   { label: 'About Us',   to: '/about' },
+  { label: 'Destination',   to: '/Destination' },
   { label: 'Services',   to: '/services' },
   { label: 'Rent a Car', to: '/rent-a-car' },
   { label: 'Blogs',      to: '/blogs' },
@@ -43,7 +44,7 @@ export default function Footer() {
               <FaMountain className="text-white text-base" />
             </div>
             <div className="leading-none">
-              <p className="text-white font-extrabold text-sm tracking-wide">ILYAS SKARDU</p>
+              <p className="text-white font-extrabold text-sm tracking-wide">Rukhsana SKARDU</p>
               <p className="text-accent text-[10px] font-semibold tracking-widest uppercase">
                 Travels &amp; Tours
               </p>
@@ -118,20 +119,20 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="tel:+923335557890"
+                href="tel:+923490897899"
                 className="flex items-center gap-3 text-sm hover:text-accent transition-colors duration-200"
               >
                 <FaPhone className="text-accent shrink-0" />
-                +92-333-555-7890
+                +92-3490897899
               </a>
             </li>
             <li>
               <a
-                href="mailto:info@ilyasskardutours.com"
+                href="mailto:info@rukhsanaskardutours.com"
                 className="flex items-center gap-3 text-sm hover:text-accent transition-colors duration-200"
               >
                 <FaEnvelope className="text-accent shrink-0" />
-                info@ilyasskardutours.com
+                info@rukhsanaskardutours.com
               </a>
             </li>
           </ul>
@@ -142,9 +143,9 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-600">
           <p>
-            &copy; {new Date().getFullYear()} Ilyas Skardu Travels &amp; Tours. All rights reserved.
+            &copy; {new Date().getFullYear()} Rukhsana Skardu Travels &amp; Tours. All rights reserved.
           </p>
-          <p>Designed by Rukhsana</p>
+          <p>Designed by Rukhsana Batool</p>
         </div>
       </div>
     </footer>

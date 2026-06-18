@@ -3,8 +3,8 @@ import {
   FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaWhatsapp,
 } from 'react-icons/fa'
 
-const EMAIL = 'info@ilyasskardutours.com'
-const PHONE = '+92-333-555-7890'
+const EMAIL = 'ruhasananajaf@gmail.com'
+const PHONE = '+92-3490897899'
 
 const SOCIAL = [
   { Icon: FaFacebookF, href: '#', label: 'Facebook' },

@@ -10,20 +10,19 @@ const CONTACT_INFO = [
   {
     icon: FaPhone,
     title: 'Phone',
-    lines: ['+92-333-555-7890', '+92-311-222-4444'],
-    href: 'tel:+923335557890',
+    lines: ['+92-3490897899', ],
+    
   },
   {
     icon: FaEnvelope,
     title: 'Email',
-    lines: ['info@ilyasskardutours.com', 'bookings@ilyasskardutours.com'],
-    href: 'mailto:info@ilyasskardutours.com',
+    lines: ['ruhasananajaf@gmail.com'],
   },
   {
     icon: FaWhatsapp,
     title: 'WhatsApp',
-    lines: ['Message us anytime', '+92-333-555-7890'],
-    href: 'https://wa.me/923335557890',
+    lines: ['Message us anytime', '+92-3490897899'],
+    href: 'https://wa.me/923490897899',
   },
 ]
 

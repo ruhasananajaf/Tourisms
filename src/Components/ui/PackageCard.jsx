@@ -71,7 +71,7 @@ export default function PackageCard({ pkg }) {
             onClick={() => openModal(pkg)}
             className="bg-accent hover:bg-accent-dark text-white px-4 py-2 rounded-full text-xs font-semibold transition-colors duration-300 whitespace-nowrap hover:shadow-lg hover:shadow-accent/30"
           >
-            Book Now
+            visit detail
           </button>
         </div>
       </div>

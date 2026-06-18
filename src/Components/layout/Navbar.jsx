@@ -6,6 +6,7 @@ import { useBooking } from '../../context/BookingContext'
 const NAV_LINKS = [
   { label: 'Home',       to: '/',           end: true },
   { label: 'About Us',   to: '/about',      end: false },
+  { label: 'Destination',   to: '/destination',      end: false },
   { label: 'Services',   to: '/services',   end: false },
   { label: 'Rent a Car', to: '/rent-a-car', end: false },
   { label: 'Blogs',      to: '/blogs',      end: false },
@@ -48,7 +49,7 @@ export default function Navbar() {
             <FaMountain className="text-white text-base" />
           </div>
           <div className="leading-none">
-            <p className="text-primary font-extrabold text-sm tracking-wide">ILYAS SKARDU</p>
+            <p className="text-primary font-extrabold text-sm tracking-wide">RUKHSANA SKARDU</p>
             <p className="text-accent text-[10px] font-semibold tracking-widest uppercase">
               Travels &amp; Tours
             </p>
